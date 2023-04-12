@@ -1,6 +1,6 @@
 # ShotBro Support
 
-
+https://saasmech.github.io/shotbro-support/
 
 
 # Why vitepress
