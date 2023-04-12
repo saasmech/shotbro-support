@@ -3,7 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "ShotBro Support Docs",
-  description: "A VitePress Site",
+  base: "https://saasmech.github.io/shotbro-support/",
+  description: "Support documentation for the ShotBro admin site and client library.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
