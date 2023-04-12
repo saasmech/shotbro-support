@@ -4,15 +4,15 @@ layout: home
 
 hero:
   name: "ShotBro Support Docs"
-  text: "A VitePress Site"
+  text: "############ UNDER CONSTRUCTION ###############"
   tagline: My great project tagline
   actions:
     - theme: brand
+      text: Embed Examples
+      link: /embed-examples
+    - theme: alt
       text: Markdown Examples
       link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
 
 features:
   - title: Feature A
