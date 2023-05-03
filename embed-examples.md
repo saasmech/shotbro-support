@@ -8,5 +8,11 @@ outline: deep
 title="ShotBro embed" frameborder="0" allowtransparency allowfullscreen loading="lazy"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
 
+# attempt 2: dev1
 
+<blockquote class="shotbro-shot" data-shotbro-embed-code="sssss">
+    <p lang="en" dir="ltr">Screenshot of </p>
+    <a href="https://shotbro.io">Embeded screenshot via shotbro.io</a>
+</blockquote>
+<script async src="https://dev1.shotbro.io/embed/client-v1.js" charset="utf-8"></script>
 
