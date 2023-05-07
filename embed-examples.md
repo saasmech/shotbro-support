@@ -2,17 +2,16 @@
 outline: deep
 ---
 
-# iframe embed example
+# Embed Example
 
-<iframe width="560" height="315" src="https://dev1.shotbro.io/embed/e:1234?"
-title="ShotBro embed" frameborder="0" allowtransparency allowfullscreen loading="lazy"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
-
-# attempt 2: dev1
-
-<blockquote class="shotbro-shot" data-shotbro-embed-code="sssss">
+<blockquote class="shotbro-embed" cite="http://127.0.0.1:5174/embed/8e034891aea82df4">
     <p lang="en" dir="ltr">Screenshot of </p>
     <a href="https://shotbro.io">Embeded screenshot via shotbro.io</a>
 </blockquote>
-<script async src="https://dev1.shotbro.io/embed/client-v1.js" charset="utf-8"></script>
 
+<script setup>
+
+import {scanForEmbeds} from './shotbro-vitepress.js';
+scanForEmbeds();
+
+</script>
