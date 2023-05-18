@@ -4,10 +4,13 @@ outline: deep
 
 # Embed Example
 
-<blockquote class="shotbro-embed" cite="http://127.0.0.1:5174/embed/8e034891aea82df4">
-    <p lang="en" dir="ltr">Screenshot of </p>
-    <a href="https://shotbro.io">Embeded screenshot via shotbro.io</a>
-</blockquote>
+
+
+<div class="shotbro-embed" data-shotbro-loader="http://127.0.0.1:5173/embed/client-v1.js">
+          <iframe src="http://127.0.0.1:5173/embed/8e034891aea82df4?streamCode=com.app.settings.my-form"
+            style="width: 100%; height: 100px; border: none;"
+            title="ShotBro embed" allowtransparency loading="lazy"></iframe>
+          <script async src="http://127.0.0.1:5173/embed/client-v1.js" charset="utf-8"></script></div>
 
 <script setup>
 
