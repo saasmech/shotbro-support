@@ -4,15 +4,12 @@ layout: home
 
 hero:
   name: "ShotBro Support Docs"
-  text: "############ UNDER CONSTRUCTION ###############"
-  tagline: My great project tagline
+  text: ""
+  tagline: Example support documentation for ShotBro
   actions:
     - theme: brand
       text: Embed Examples
       link: /embed-examples
-    - theme: alt
-      text: Markdown Examples
-      link: /markdown-examples
 
 features:
   - title: Feature A
